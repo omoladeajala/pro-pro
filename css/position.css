@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example {
+    display: flex;
+  justify-content: center;
+}
+
+. {}
+
+. {}
+
+. {}
