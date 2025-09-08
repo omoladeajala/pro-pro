@@ -1,22 +1,22 @@
-   * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+}
 
 .menu-container {
- color: #fff;
- background-color: #5995DA;  
-  padding: 20px 0;  
+  color: #fff;
+  background-color: #5995da;
+  padding: 20px 0;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .menu {
-  background-color: #5995DA;
+  background-color: #5995da;
   border: 1px solid #fff;
   width: 900px;
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -31,11 +31,11 @@
 }
 
 .header-container {
-  color: #5995DA;
-  background-color: #D6E9FE;
+  color: #5995da;
+  background-color: #d6e9fe;
   display: flex;
- 
-  align-items: center;  
+
+  align-items: center;
 }
 
 .header {
@@ -49,7 +49,7 @@
 .social,
 .logo,
 .subscribe {
-  border: 1px solid #5995DA
+  border: 1px solid #5995da;
 }
 
 .photo-grid-container {
@@ -75,18 +75,19 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .footer-item {
   border: 1px solid #fff;
-  background-color: #D6E9FE;
-  height: 200PX;
+  background-color: #d6e9fe;
+  height: 200px;
   flex: 1;
 }
 
 .footer-one,
 .footer-three {
-  background-color: #5995DA;
+  background-color: #5995da;
   flex: initial;
   width: 300px;
 }
