@@ -13,7 +13,8 @@
   justify-content: center;
 }
 
-.header {
+.main
+ .links {
   background-color: rgba(26,26,32);
   border: 1px solid #fff;
   width: 1400px;
@@ -21,8 +22,10 @@
   justify-content: space-between;
 }
 .links {
+  color: #fff;
   border: 1px solid #fff;
   width: 500px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
