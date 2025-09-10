@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: rgb(26, 26, 32);
+  color: #fff;
+  height: 300px;
+  padding: 20px 0;
+  display:flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgba(26,26,32);
+  border: 1px solid #fff;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  border: 1px solid #fff;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
