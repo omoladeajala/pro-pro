@@ -36,27 +36,66 @@
 
 .nav-links a {
   background-color: #1f2937;
-
   text-decoration: none;
   color: #3b82f6;
   font-weight: bold;
 }
 
 .nav-links a:hover {
-color: #3b82f6;
+color: lightskyblue;
 }
 
 .hero {
   background: #1f2937;
-  color: #fff;  
+  color: #fff; 
   height: 150px;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 50px;
+  padding: 60px 50px ;
   gap: 40px;
 }
 .hero-text {
+  margin: 50px;
   max-width: 50%;
+  text-decoration: none;
+
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+
+}
+.hero-text p {
+  color: #d1d5db;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.btn {
+  background: #3b82f6;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+.hero-image {
+  padding-right: 150px;
+  padding-bottom: 30px;
+}
+.image-placeholder {
+ background: gray;
+ width: 400px;
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
 
 }
