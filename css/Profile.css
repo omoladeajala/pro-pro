@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  background-color:;
+  text-decoration: none;
 }
 
 .header-container {
@@ -9,6 +9,7 @@
   padding: 20px 0;
   display:flex;
   justify-content: center;
+  position: static;
 }
 
 .logo {
@@ -23,7 +24,7 @@
   }
 
 .nav-links ul {
-    width: 450px;
+  width: 450px;
   height:40px;
   list-style: none;
   display: flex;
@@ -58,7 +59,7 @@ color: lightskyblue;
 .hero-text {
   margin: 50px;
   max-width: 50%;
-  text-decoration: none;
+
 
 }
 
@@ -70,14 +71,13 @@ color: lightskyblue;
 .hero-text p {
   color: #d1d5db;
   margin-bottom: 20px;
-  text-decoration: none;
 }
 
 .btn {
   background: #3b82f6;
   border: none;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 5px;
 }
 
@@ -97,5 +97,72 @@ color: lightskyblue;
  justify-content: center;
  align-items: center;
  color: #fff;
+}
 
+/* Info section */
+.info {
+  text-align: center;
+  padding: 50px;
+}
+
+.info h2 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration-line: none;
+  margin-bottom: 40px;
+  
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  font-weight: 36px;
+  color: black;
+  width: 150px;
+}
+
+.box {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #3b82f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  background: #e5e7eb;
+  padding: 60px 100px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.author {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.cta {
+  padding: 50px;
+}
+
+.cta-box {
+background: #3b82f6;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 50px;
+border-radius: 10px;;
+}
+
+.btn-outline {
+  background: transparent;
+  
 }
