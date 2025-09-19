@@ -169,3 +169,14 @@ border-radius: 10px;;
   padding: 10px 20px;
   border-radius: 5px;
 }
+.btn-outline :hover {
+background: #fff;
+color :#2563eb;
+}
+
+.footer {
+  background: #1f2937;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
