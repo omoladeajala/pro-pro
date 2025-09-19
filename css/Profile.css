@@ -9,7 +9,7 @@
   padding: 20px 0;
   display:flex;
   justify-content: center;
-  position: static;
+  position: relative;
 }
 
 .logo {
@@ -164,5 +164,8 @@ border-radius: 10px;;
 
 .btn-outline {
   background: transparent;
-  
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
