@@ -1,2 +1,2 @@
-let isBoss = confirm("Are you the boss?");
-alert ( isBoss);
+let place = prompt('Where is your place?',"");
+alert (place);
