@@ -1,2 +1,2 @@
-const BIRTHDAY= " 22.09.2002";
-const AGE = someCOde
+let age = prompt('How old are you?', 100);
+alert('You are ${age} years old!')
