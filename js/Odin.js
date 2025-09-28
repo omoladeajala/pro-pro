@@ -1,2 +1,4 @@
-let place = prompt('Where is your place?',"");
-alert (place);
+const name = "Chris";
+function greeting() {
+    alert(`Hello ${name}: welcome to our company.`)
+}
