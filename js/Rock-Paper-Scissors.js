@@ -85,3 +85,11 @@ if (humanScore > computerScore) {
     console.log("The game is a tie!");
 }
 }
+
+const rockBtn = document.querySelector('#rock');
+const papaerBtn = document.querySelector("#paper");
+const scissorsBtn = document.querySelector("#scissors");
+
+rockBtn.addEventListener ('click', (e) => playRound('rock'));
+paperBtn.addEventListener ('click', (e) => playRound('paper') );
+scissorsBtn. addEventListener ('click', (e) => playRound('scissors'));
