@@ -12,8 +12,12 @@ const addTodo = () => {
   }
 
   if (addBtn.value === "Edit") {
-    editTodo.target.previousElementSibling.innerHTML = inputText;
-    editLocalTodos(inputText);
+    if (editTodo) {
+      const p = editTodo.querySelector('p');
+      const oldText = p ? p.innerHTML : null;
+      if (p) p.innerHTML = inputText;
+      if (oldText) editLocalTodos(oldText, inputText);
+    }
     addBtn.value = "Add";
     inputBox.value = "";
   } else {
@@ -46,14 +50,15 @@ const updateTodo = (e) => {
   // console.log(e.target.innerHTML);
   if (e.target.innerHTML === "Remove") {
     todoList.removeChild(e.target.parentElement);
-    deleteLocalTodos(e.tegent);
+    deleteLocalTodos(e.target.parentElement);
   }
 
   if (e.target.innerHTML === "Edit") {
     inputBox.value = e.target.previousElementSibling.innerHTML;
     inputBox.focus();
     addBtn.value = "Edit";
-    editTodo = e;
+    // store the li element so addTodo can update it
+    editTodo = e.target.parentElement;
   }
 };
 
@@ -120,12 +125,14 @@ const deleteLocalTodos = (todo) => {
   
 
 };
-const editLocalTodos = (todo) => {
-  let todos = JSON.parse(localStorage.getItem("todos"));
-  let todoIndex = todos.indexOf(todo);
-  todos[todoIndex] = inputBox.value;
-  localStorage.setItem("todos", JSON.stringify(todos));
-} 
+const editLocalTodos = (oldText, newText) => {
+  let todos = JSON.parse(localStorage.getItem("todos")) || [];
+  const todoIndex = todos.indexOf(oldText);
+  if (todoIndex > -1) {
+    todos[todoIndex] = newText;
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }
+};
 document.addEventListener('DOMContentLoaded', getLocalTodos);
 addBtn.addEventListener("click", addTodo);
 todoList.addEventListener("click", updateTodo);
