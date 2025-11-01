@@ -5,39 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="calculator.css">
-   
+    <script src="calculator.js"></script>
 </head>
 
 <body>
     <div class="calculator">
-        <div class="display" id="display">0</div>
-        <div class="button">
-            <button class="clear">Clear</button>
-            <button class="operate">/</button>
-            <button class="operate">*</button>
-            <button class="backspace">X</button>
-
-            <buttton>7</buttton>
-            <buttton>8</buttton>
-            <buttton>9</buttton>
-            <buttton class="operate">-</buttton>
-
-            <buttton>4</buttton>
-            <buttton>5</buttton>
-            <buttton>6</buttton>
-            <buttton class="operate">+</buttton>
-
-            <buttton>1</buttton>
-            <buttton>2</buttton>
-            <buttton>3</buttton>
-            <buttton class="equals">=</buttton>
-
-            <buttton>0</button>
-            <buttton class="decimal">.</buttton>
+        <div class="display" >
+            <input type="text" id="display" disabled>
         </div>
+
+        <div class="clear">
+            <button class="btn" id="btn-clear">Clear</button>
+        </div>
+
+        <div class="button">
+            <buttton class="btn" id="btn-1">1</buttton>
+            <buttton class="btn" id="btn-2">2</buttton>
+            <buttton class="btn" id="btn-3">3</buttton>
+            <buttton class="btn" id="btn-4">4</buttton>
+            <buttton class="btn" id="btn-5">5</buttton>
+            <buttton class="btn" id="btn-6">6</buttton>
+            <buttton class="btn" id="btn-7">7</buttton>
+            <buttton class="btn" id="btn-8">8</buttton>
+            <buttton class="btn" id="btn-9">9</buttton>
+            <buttton class="btn" id="btn-0">0</buttton>
+            <buttton class="btn" id="btn-float">.</buttton>
+        </div>
+            <div class="operators">
+                <button class="btn" id="btn-del"><</button>
+                <button class="btn" id="btn-divide">/</button>
+                <button class="btn" id="btn-multiply">*</button>
+                <button class="btn" id="btn-add">+</button>
+                <button class="btn" id="btn-equal">=</button>
+                <button class="btn" id="btn-subtract">=</button>
+            </div>
     </div>
 
-    <script src="calculator.js"></script>
+   
 </body>
 
 </html>
