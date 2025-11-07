@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.head {
+    height: 12rem;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+h1, p {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    width: 20rem;
+    height: 25em;
+    padding: 30px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.img-skill2 {
+    height: 15rem;
+    width: 10rem;
+
+}
