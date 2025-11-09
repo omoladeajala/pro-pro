@@ -1,4 +1,85 @@
-.bg-image {
-    height: 20rem;
-    width: 20rem;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left-side {
+    flex: 1;
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.right-side {
+    flex: 1.5;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background: #0d6724;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #015218;
+}
+
+.login {
+    margin-top: 1rem;
+}
+
+.login a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
