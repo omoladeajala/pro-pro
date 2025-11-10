@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -33,6 +34,16 @@ body {
     width: 80px;
 }
 
+.photo-credit {
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .right-side {
     flex: 1.5;
     padding: 3rem;
@@ -53,9 +64,30 @@ h4 {
 
 .form-row {
     display: flex;
-    flex-direction: column;
-    gap: 1.5em;
+    gap: 1em;
     margin-bottom: 1rem;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 0.5rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+    outline: none;
 }
 
 .btn {
@@ -63,7 +95,7 @@ h4 {
     color: #fff;
     font-weight: bold;
     font-size: 0.9rem;
-    background: #0d6724;
+    background: #596D48;
     border: none;
     border-radius: 7px;
     cursor: pointer;
