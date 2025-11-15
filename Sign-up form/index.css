@@ -35,9 +35,7 @@ body {
 }
 
 .photo-credit {
-    bottom: 10px;
-    left: 10px;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
@@ -46,16 +44,16 @@ body {
 
 .right-side {
     flex: 1.5;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .text {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 h4 {
@@ -65,7 +63,7 @@ h4 {
 .form-row {
     display: flex;
     gap: 1em;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 label {
@@ -75,9 +73,9 @@ label {
 input {
     border: 1px solid #E5E7EB;
     border-radius: 4px;
-    padding: 0.5rem;
+    padding: 0.2rem;
     outline: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
 }
 
 input:invalid {
