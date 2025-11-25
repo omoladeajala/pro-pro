@@ -35,6 +35,7 @@
 
         <div>
             <label for="gender">Select Gender</label><br>
+
             <select name="gender" id="gender">
                 <option>Male</option>
                 <option>Female</option>
@@ -42,11 +43,38 @@
                 <option>Preferred not to say</option>
                 <option>Others</option>
             </select>
-        </div>
+        </div><br>
 
         <div>
             <label for="age">Age (optional) </label><br>
             <input type="date" />
+        </div><br>
+
+        <div>
+            <label for="education">Level of education</label><br>
+        
+            <select>
+                <option>MSc</option>
+                <option>PhD</option>
+                <option>HND</option>
+                <option>NCE</option>
+                <option>BSc</option>
+                <option>SSCE</option>
+                <option>Others</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="disable">Are you Disabled</label><br>
+
+            <input id="yes" type="radio" name="disable">
+            <label for="yes">Yes</label><br>
+
+            <input id="no" type="radio" name="disable">
+            <label for="no">No</label><br>
+
+            <input id="don't know" type="radio" name="disable">
+            <label for="other">Don't know</label><br>
         </div><br>
 
         <button type="submit">Submit</button>
