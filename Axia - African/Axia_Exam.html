@@ -27,6 +27,13 @@
         );
         padding: 20px 0;
       }
+      nav a {
+        color: #fff;
+
+      }
+      nav a:hover {
+        color: #2e7d32;
+      }
       .main {
         padding: 20px;
         gap: 20px;
@@ -40,7 +47,8 @@
       nav {
         padding: 15px;
         font-size: 25px;
-        display: felx;
+        display: flex;
+        justify-content: space-between;
       }
       nav ul {
         text-align: center;
@@ -59,23 +67,26 @@
         text-align: center;
         font-weight: bold;
     }
-    .btn {
-        width: aut;
-        padding: 10px 10px;
-        border:  solid rgb(105, 221, 105);
+    .btn button {
+        padding: 12px 40px;
+        border:  1fr solid rgb(105, 221, 105);
         background-color: #2e7d32;
-        color: #4caf50;
+        color: #fff;
+    }
+    .btn button:hover {
+        color: #17581a;
     }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">About Me</a>
-        <a href="#">Skill</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
+        <div><a href="#home" target="_blank">Home</a></div> 
+        <div><a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        </div>
       </nav>
     </header>
 
@@ -88,7 +99,8 @@
           A<i>Frontend Developer</i>who is passionate about building responsive,
           user-friendly web applications. I am eager to sharpen my skill, gain
           hands-on experience, and connect with a supportive community in tech.
-        </p>
+        </p> <strong><h1>
+         <a href="FORM.html">Click Here</a></strong></h1>
       </div>
     </div>
 
