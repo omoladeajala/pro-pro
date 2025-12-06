@@ -3,6 +3,10 @@ p {
     color: red;
 }
 
+input:focus {
+
+}
+
 #unique {
     background-color: blue;
 }
@@ -16,4 +20,40 @@ h2 {
 .highlight {
     background-color: yellow;
     border: 1px solid black;
+    padding: 20px;
+}
+
+.link {
+ text-decoration: none;
+ color: brown;
+ 
+}
+a[href] {
+    text-decoration: none;
+    cursor: progress;
+}
+/*
+input[type="email"] {
+    border: 2px solid blue;
+}
+*/
+.pseudo-link:hover {
+    background: green;
+    cursor: pointer;
+    color: #fff;
+}
+
+.focus-input:focus {
+    border: 2px solid red;
+    background: green;
+    
+}
+
+button:hover {
+    cursor: poiner;
+    background: green;
+}
+#anchor:visited { 
+    text-decoration: underline;
+    background: blue;
 }
