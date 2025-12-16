@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4a96e0;
+  --secondary-color: #4ec4ce;
+  --text-color-white: #cccccc;
+  --text-color-dark: #1e1e1e;
+}
+
+body {
+  font-family: "Robot", "Inter" sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header {
+  /* background-color: red; */
+  display: flex;
+}

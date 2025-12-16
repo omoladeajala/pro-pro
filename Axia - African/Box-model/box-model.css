@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
+
+.flex-item {
+  font-size: 20px;
+}
+.flex-one {
+  background: aqua;
+}
+.flex-two {
+  background: #a44c27b3;
+}
+.flex-three {
+  background: greenyellow;
+}
+.gallery {
+  width: 800px;
+  display: grid;
+  margin: auto;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.one {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+
+  display: flex;
+  justify-content: center;
+}
+.grid-item {
+  background: chartreuse;
+  font-size: 30px;
+  padding: 20px;
+}
