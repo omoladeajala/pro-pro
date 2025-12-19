@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #00c700;
-  --secondary-color: rgba(0, 221, 0, 0.986);
+  --primary-color: #008f1d;
+  --secondary-color: #00ff34;
   --text-color-white: #ddd8d8;
   --text-color-dark: #1e1e1e;
   --fs-md: 1.15rem;
@@ -30,7 +30,6 @@ body {
 .navigation {
   background-color: black;
   display: flex;
-  /*  align-items: center; */
   justify-content: space-between;
   padding: 14px 20px;
 }
@@ -43,7 +42,7 @@ body {
   align-items: center;
 }
 
-.logo {
+.header {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 1.6rem;
@@ -55,10 +54,20 @@ body {
   font-weight: 500;
 }
 
-.header-container {
-  background-image: url("");
+.logo-container {
+  background-image: url("images/pic14.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
+  min-height: 60vh;
+  color: var(--text-color-white);
+  padding: 48px 20px;
 }
 button {
   padding: 15px;
@@ -66,4 +75,14 @@ button {
   font-size: 14px;
   font-weight: bold;
   background: var(--secondary-color);
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+}
+.feature-grid {
+  display: grid;
+  /*  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between; */
 }
