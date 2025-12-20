@@ -20,6 +20,7 @@
 
 body {
   font-family: "Roboto", "Inter", sans-serif;
+  background: whitesmoke;
 }
 
 .container {
@@ -70,12 +71,18 @@ body {
   color: var(--text-color-white);
   padding: 48px 20px;
 }
-button {
+.btn-1 {
   padding: 15px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: bold;
   background: var(--secondary-color);
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1500;
 }
 
 .feature {
@@ -87,6 +94,8 @@ button {
 
 .feature-section {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .feature-grid {
   display: grid;
@@ -96,20 +105,23 @@ button {
   padding: 30px;
 }
 .feature-card {
-  background: white;
-  border: 1px solid var(--secondary-color);
+  background: #fff;
+  border: 1px solid white;
   padding: 20px;
   border-radius: 8px;
   box-sizing: border-box;
 }
 
-.feature-card head {
+.feature-card .head {
   text-align: center;
+  padding-bottom: 20px;
 }
+
 .feature-card ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .feature-card li {
@@ -127,3 +139,18 @@ button {
   margin-right: 6px;
   line-height: 1;
 }
+
+.btn-2 {
+  background: #000;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.feature1-section {
+  text-align: center;
+  background: #fff;
+}
+
+.
