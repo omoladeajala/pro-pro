@@ -146,6 +146,10 @@ body {
   line-height: 1.6;
 }
 
+.head {
+  text-align: center;
+}
+
 button {
   padding: 20px;
   border-radius: 30px;
