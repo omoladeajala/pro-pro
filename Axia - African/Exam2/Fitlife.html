@@ -116,7 +116,7 @@
 
       <section>
         <div class="feature1-section">
-          <table>
+          <table border="2">
             <thead>
               <tr>
                 <th>TIME</th>
@@ -186,22 +186,22 @@
 
       <section>
         <div class="feature-grid2">
-          <div class="feature-card card-1">
+          <div class="feature-card2 card-1">
             <h3>Modern Equipment</h3>
             <p>State-of-the-art machines<br>updated annually</p>
           </div>
 
-          <div class="feature-card card-2">
+          <div class="feature-card2 card-2">
             <h3>Expert Trainers</h3>
             <p>Certified professionals with<br>10+ years experience</p>
           </div>
 
-          <div class="feature-card card-3">
+          <div class="feature-card2 card-3">
             <h3>Flexible Hours</h3>
             <p>24/7 access with Pro and<br>Elite memberships</p>
           </div>
 
-          <div class="feature-card card-4">
+          <div class="feature-card2 card-4">
             <h3>Results Driven</h3>
             <p>Custom programs<br>designed for your goals</p>
           </div>
@@ -213,42 +213,171 @@
       </section>
 
       <section>
-        <form action="method">
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
+        <form action="method" class="form">
+          <div class="form1">
+            <div>
+              <label for="first_name">First Name</label><br>
+              <input
+               id="first_name" 
+               type="text">
+            </div>
+
+            <div>
+              <label for="last_name">Last Name</label><br>
+              <input
+               id="last_name" 
+               type="text">
+            </div>
+
+            <div>
+              <label for="first_name">Email Address</label><br>
+              <input
+               id="email_address" 
+               type="email">
+            </div>
+
+            <div>
+              <label for="contact">Phone Number </label><br>
+              <input
+               id="contact" 
+               type="number">
+            </div>
+
+            <div>
+              <label for="date_of_birth">Date of Birth</label><br>
+              <input
+               id="date_of_birth" 
+               type="age">
+            </div>
+
+            <div>
+              <label for="memebership">Membership Plan</label><br>
+              <select id="membership_plan">
+                <option value="">--Select Plan--</option>
+                <option value="">2months</option>
+                <option value="">5month</option>
+                <option value="">One Year</option>
+              </select>
+            </div>
           </div>
 
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
-          </div>
+          <div class="form2">
+            <h4>Fitness Goals <em>Select all that apply</em></h4>
 
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
-          </div>
+            <div class="checkbox-card">
+              <div>
+                <input type="checkbox">
+                <label for="">Weight Loss</label>
+              </div>
 
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
-          </div>
+              <div>
+                <input type="checkbox">
+                <label for="">Build Muscle</label>
+              </div>
 
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
-          </div>
+              <div>
+                <input type="checkbox">
+                <label for="">Improve Cardio</label>
+              </div>
 
-          <div>
-            <label for="first_name">First Name</label>
-            <input type="text">
-          </div>
+              <div>
+                <input type="checkbox">
+                <label for="">Flexibility</label>
+              </div>
+            </div>
 
-          
+            <div class="radio">
+              <h4>Experience Level</h4>
+              <div>
+                <input type="radio">
+                <label for="">Beginner</label>
+              </div>
+
+              <div>
+                <input type="radio">
+                <label for="">Intermediate</label>
+              </div>
+
+              <div>
+                <input type="radio">
+                <label for="">Advanced</label>
+              </div>
+            </div>
+
+            <div class="exprience">
+               <label for="medical conditions">Medical Conditions or Injuries<em>Optional</em></label><br>
+               <textarea
+                name="" 
+                id=""
+                rol="30"
+                cols="50"></textarea>
+            </div>
+
+            <div class="checkbox">
+               <input type="checkbox">
+               <label for="">I agree to the membership terms and conditions</label>
+            </div>
+
+            <a href="#">
+              <button class="btn-3">Complete Registration</button>
+             </a>
+
+          </div>
         </form>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <section class="footer-1">
+       <div class="feature-grid3">
+        <div class="feature-card3">
+          <h3
+          style="color: #00ff34">Contact Us</h3>
+
+          <div>
+            <ul>
+             <li>456 Fitness Avenue, Los Angeles, CA<br>90028 </li>
+             <li>(+234) 810 875 0414</li>
+             <li>info@fitlifegym.com</li>
+           </ul>
+          </div>
+
+        </div>
+
+        <div class="feature-card3">
+          <div>
+            <h3 style="color: #00ff34">Quick Links</h3>
+          </div>
+
+          <div>
+            <ul>
+             <li>Membership Plans</li>
+             <li>Class Schedule</li>
+             <li>Our Features</li>
+             <li>Join Now</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-card3">
+          <div>
+            <h3 style="color: #00ff34">Hours</h3>
+          </div>
+
+          <div>
+            <ul>
+             <li>Monday-Friday: 5:00AM-11:00PM</li>
+             <li>Saturday-Sunday: 6:00AM-10:00PM</li>
+             <li>Pro & Elite members have 24/7 access</li>
+            </ul>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <section class="footer-2"> 
+         @ 2025 FitLife Gym. All right reserved.
+      </section>
+    </footer>
   </body>
 </html>

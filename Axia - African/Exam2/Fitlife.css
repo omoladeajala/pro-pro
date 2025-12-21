@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #008f1d;
-  --secondary-color: #00ff34;
+  --secondary-color: #36e659;
   --text-color-white: #ddd8d8;
   --text-color-dark: #1e1e1e;
   --fs-md: 1.15rem;
@@ -149,8 +149,87 @@ h1 {
 }
 
 .feature1-section {
-  text-align: center;
+  text-align: left;
   background: #fff;
 }
 
-.
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 1rem;
+  background: #000;
+  color: var(--text-color-white);
+}
+
+table td {
+  padding: 1rem;
+  border: none;
+  font-size: var(--fs-ls);
+  gap: 5px;
+}
+
+.form {
+  background-color: #00ff34;
+  gap: 30px;
+  width: 700px;
+}
+
+.form1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.form2 {
+  padding: 20px;
+}
+
+.form2 {
+  padding-bottom: 20px;
+}
+
+.checkbox-card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn-3 {
+  background: var(--secondary-color);
+  color: var(--text-color-dark);
+  padding: 15px 200px;
+  border-radius: 20px;
+  border: none;
+  font-size: var(--fs-);
+  font-weight: bold;
+}
+
+.footer {
+  background: #000;
+  color: var(--text-color-white);
+  padding: 20px;
+  list-style: none;
+}
+
+.feature-grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.feature-card3 {
+  gap: 40px;
+}
+
+.feature-card3 li {
+  padding-bottom: 9px;
+}
+
+.footer-2 {
+  border-top: 1px solid #acacac;
+}
