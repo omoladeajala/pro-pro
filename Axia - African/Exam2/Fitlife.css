@@ -167,7 +167,7 @@ table th {
 table td {
   padding: 1rem;
   border: none;
-  font-size: var(--fs-ls);
+  font-size: var(--fs-sm);
   gap: 5px;
 }
 
