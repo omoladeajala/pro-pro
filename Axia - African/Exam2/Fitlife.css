@@ -21,6 +21,7 @@
 body {
   font-family: "Roboto", "Inter", sans-serif;
   background: whitesmoke;
+  gap: 20px;
 }
 
 .container {
@@ -83,6 +84,7 @@ h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 2.5rem;
+  padding-bottom: 40px;
 }
 
 .feature {
@@ -90,6 +92,12 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 40px;
+}
+
+.feature0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-section {
@@ -148,6 +156,10 @@ h1 {
   border: none;
 }
 
+.feature1 {
+  padding-bottom: 40px;
+}
+
 .feature1-section {
   background: #fff;
   display: flex;
@@ -182,8 +194,36 @@ table td {
   text-align: left;
 }
 
+.feature2 {
+  background: whitesmoke;
+  padding-bottom: 70px;
+}
+
+.feature-grid2 {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin: auto;
+  padding: 30px;
+}
+
+.feature-card2 {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+img {
+  height: 90px;
+  width: 90px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
 .form {
-  background-color: #00ff34;
+  background-color: white;
   width: 100%;
   max-width: 1000px;
   margin: auto;
@@ -210,8 +250,9 @@ label {
 
 input {
   padding: 10px 10px;
+  border: 2px solid black;
   border-radius: 4px;
-  border-style: none;
+  border-style: 1px;
 }
 
 select {
@@ -247,16 +288,25 @@ textarea {
   padding-bottom: 20px;
 }
 
-.experience {
+.condition {
+  padding-bottom: 10px 10px;
+}
+
+h4 {
   padding-bottom: 20px;
 }
 
+em {
+  font-size: var(--fs-xs);
+  font-weight: 100;
+}
 .btn-3 {
   background: var(--secondary-color);
   color: var(--text-color-dark);
   padding: 15px 70px;
   border-radius: 20px;
   border: none;
+  text-decoration: none;
   font-size: var(--fs-);
   font-weight: bold;
   display: flex;
@@ -271,6 +321,11 @@ textarea {
   list-style: none;
 }
 
+.footer-1 li {
+  padding-bottom: 20px;
+  font-size: var(--fs-sm);
+  list-style: none;
+}
 .feature-grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -288,4 +343,5 @@ textarea {
   border-top: 1px solid #acacac;
   text-align: center;
   padding: 20px;
+  font-size: var(--fs-sm);
 }
